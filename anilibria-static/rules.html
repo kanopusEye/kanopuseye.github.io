@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+<head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137180052-1" type="a7f332454619139fec7f710b-text/javascript"></script>
+<script type="a7f332454619139fec7f710b-text/javascript">
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-159821219-2');
+		</script>
+
+<script type="a7f332454619139fec7f710b-text/javascript">
+		   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+		   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+		   (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym");
+
+		   ym(23688205, "init", {
+				clickmap:true,
+				trackLinks:true,
+				accurateTrackBounce:true
+		   });
+		</script>
+<script async src="https://yastatic.net/pcode/adfox/header-bidding.js" type="a7f332454619139fec7f710b-text/javascript"></script>
+<script type="a7f332454619139fec7f710b-text/javascript" src="https://ads.digitalcaramel.com/js/anilibria.tv.js"></script>
+<script src="https://yastatic.net/pcode/adfox/loader.js" crossorigin="anonymous" type="a7f332454619139fec7f710b-text/javascript"></script>
+<noscript><div><img src="https://mc.yandex.ru/watch/23688205" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+<title>Авторизация, правила</title>
+<meta charset="UTF-8">
+<meta name="description" content="" />
+<link rel="stylesheet" type="text/css" href="https://static.anilibria.tv/css/bootstrap.min.css?1591180335" />
+<link rel="stylesheet" type="text/css" href="https://static.anilibria.tv/css/main.css?1613435667" />
+<style>.header {
+	height: 215px;
+	background: url('https://static.anilibria.tv/img/other/a/bok.png');
+	background-repeat: no-repeat;
+}
+
+.link a{
+	display:block; 
+	height: 70px;
+	width: 240px;
+	position:absolute; 
+	margin-left: auto; 
+	margin-right: auto;
+	left: 300px;
+	right: 0;
+	top: 138px;
+}
+</style>
+</head>
+<body>
+<input type="hidden" id="csrf_token" value=''>
+
+<div id="headercontent"></div>
+<div class="link">
+<a href="/bok" target="_blank" data-toggle="tooltip" data-placement="right" title="Вы можете отключить рекламу в личном кабинете"></a> </div>
+<div class="header">
+<div class='headercontent'></div> </div>
+<div class="main">
+<div class="content">
+<div class="contentmenu">
+<ul class="main-navigation">
+<li><a id="activelink0" href="/">ГЛАВНАЯ</a></li>
+<li><a id="activelink1" href="/pages/catalog.php">РЕЛИЗЫ</a></li>
+<li><a id="activelink2" href="/pages/schedule.php">РАСПИСАНИЕ</a></li>
+<li><a data-random-release id="activelink3" href="/public/random.php">СЛУЧАЙНОЕ</a></li>
+<li><a id="activelink4" href="https://anilibria.app" target="_blank">ПРИЛОЖЕНИЕ</a></li>
+<li><a id="activelink5" href="/pages/team.php">КОМАНДА</a></li>
+<li><a id="activelink6" href="/pages/donate.php">ПОДДЕРЖАТЬ ПРОЕКТ</a></li>
+</ul>
+</div>
+
+
+<a href="https://www.patreon.com/anilibria/posts" target="_blank">
+<img src="/img/patreonAL.jpg" style="width: 880px; height: 100px; margin-top: 10px;" alt="Patreon Anilibria" />
+</a>
+
+<div class="news-block">
+<div class="news-header">
+<h2 class="news-name" id="loginMes"></h2>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+<div>
+<input class="form-control" id="newMail" placeholder="Email или логин" type="text" required>
+<input class="form-control" id="newPasswd" style="margin-top: 10px;" type="password" placeholder="Пароль" required>
+<input class="form-control" id="fa2code" style="margin-top: 10px;" type="text" placeholder="Оставьте поле пустым, если вы не настроили двухфакторную аутентификацию">
+<div style="margin-top: 10px;">
+<input class="btn btn btn-success" style="width: 418px;" type="submit" name="login" data-submit-login value="ВХОД ЧЕРЕЗ САЙТ">
+<a href="https://oauth.vk.com/authorize?client_id=5315207&redirect_uri=https://www.anilibria.tv/public/vk.php" role="button" class="btn btn btn-success" style="width: 417px;">ВХОД ЧЕРЕЗ VK.COM</a>
+</div>
+</div>
+<div class="clear"></div>
+<div style="margin-top:10px;"></div>
+</div>
+<div class="news-block">
+<div class="news-header">
+<h2 class="news-name" id="regMes"></h2>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+<div>
+<input class="form-control" id="regLogin" placeholder="Логин" type="email" required>
+<input class="form-control" id="regEmail" style="margin-top: 10px;" placeholder="E-mail (если забыли пароль - заполняйте только это поле)" type="email" required>
+<input class="form-control" id="regPasswd" style="margin-top: 10px;" placeholder="Пароль" type="password" required>
+<div id="RecaptchaField" style="margin-top: 10px; display: none;"></div>
+<div style="margin-top: 10px;">
+<input class="btn btn btn-success" style="width: 418px;" type="submit" data-submit-register value="РЕГИСТРАЦИЯ" />
+<input class="btn btn btn-success" style="width: 417px;" type="submit" data-submit-passwdrecovery value="ВОССТАНОВИТЬ ПАРОЛЬ" />
+</div>
+</div>
+<div class="clear"></div>
+<div style="margin-top:10px;"></div>
+</div>
+<style>
+.day {
+    background: #4a4a4a;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    height: 30px;
+    font-size: 13pt;
+    line-height: 30px;
+    border-radius: 3px;
+    color: white;
+}
+
+.teamleft {
+    float: left;
+    margin-left: 6px;
+}
+	
+</style>
+<div class="news-block" id="rules">
+<div class="news-header"></div>
+<div class="clear"></div>
+<div>
+<div class="day" style="width: 76px;">
+<div class="teamleft">Правила</div>
+</div>
+<p>Все посты, оставляемые пользователями, должны быть конструктивными и нести смысловую нагрузку, ну или хотя бы быть весьма позитивными, а также не нарушать правил, описанных в данной теме.</p>
+<p>Нецензурные выражения, в том числе и завуалированные. Недопустимы в любом виде. Исключения могут быть сделаны только для материалов, в которых невозможно сохранить смысл без мата и ТОЛЬКО с разрешения супермодератора или администрации. При этом обязательно предупреждение, что в материалах содержится мат.</p>
+<p>Запрещены любые оскорбления личности.</p>
+<p>Запрещено использование нецензурных слов, а также слов, оскорбляющих других пользователей. Запрещена порнография. Ники состоящие только из чисел, содержащие разнообразные символы, только повторяющиеся символы, написанные одновременно на нескольких языках и тому подобное — недопустимы. Слишком большие/яркие подписи также недопустимы. Размещение огромных (как по размеру, так и по весу) картинок — запрещено.<br></p>
+<p>Запрещено использование ников, идентичных с именитыми фандаберами/членами команды АниЛибрии, если вы ими, конечно, не являетесь.</p>
+<p>Сообщения, не имеющие смысла и не относящиеся к теме, жестко караются. Чаще всего флуд — это посты из одного-двух слов, не относящиеся к теме, смайлики и т.п. Так-же удаляются "уродливые сообщения", например такие, в которых цитирование занимает большой объём страницы (больше 10 строчек). </p>
+<p>Запрещена любая рекламная и коммерческая деятельность на портале без согласования с администрацией.</p>
+<p>Запрещаются ссылки на любые ресурсы по озвучке аниме-сериалов и дорам.</p>
+</div>
+<div class="clear"></div>
+<div style="margin-top:10px;"></div>
+</div>
+<div id="vk_comments" style="margin-top: 10px;"></div>
+</div>
+<div class="side">
+<div class="asidehead">
+<div style="width: 260px; padding-top: 11px; margin: 0 auto;">
+<div class="inner-addon right-addon">
+<i class="glyphicon glyphicon-search"></i>
+<input id="smallSearchInput" class="form-control" type="search" style="width: 100%; height: 30px;" placeholder="Найти аниме по названию" autocomplete="off">
+</div>
+</div>
+</div>
+<style>
+				#smallSearchTable td:hover {
+					background-color: #460c0c;
+				}
+			</style>
+<div id="smallSearch" class="smallSearch">
+<table id="smallSearchTable">
+<tbody>
+</tbody>
+</table>
+</div>
+<div class="clear"></div>
+<div class="torrent-block">
+<div class="torrent_block">
+<div class="side-anime-desc">
+<a class="release-link" href="/release/86-eighty-six.html"></a>
+<span class="side-runame">86 Восемьдесят-шесть</span>
+<span class="side-series">Серия: 1-8</span>
+<span class="side-description">Республика Сан-Магнолия уже давно подвергается нападению со стороны Гиади́йской империи, которая создала серию беспилотных военных машин под названием «Легион». После многих ле...</span>
+<div class="last_tor_wrapper">
+<a href='/upload/torrents/15436.torrent' class='last_tor_button'>СКАЧАТЬ</a>
+</div>
+</div>
+<img class="lasttorpic" src="https://static.anilibria.tv/upload/release/240x350/8964.jpg?1617609428" height="350" alt="86 Восемьдесят-шесть / 86 EIGHTY-SIX">
+</div>
+</div>
+<div class="torrent-block">
+<div class="torrent_block">
+<div class="side-anime-desc">
+<a class="release-link" href="/release/shakunetsu-kabaddi.html"></a>
+<span class="side-runame">Пылающий Кабадди</span>
+<span class="side-series">Серия: 1-9</span>
+<span class="side-description">Тацуя Ёгиоси учится на первом году старшей школы. Он всегда любил спорт и был настоящей звездой в футбольном клубе. Но, со временем, ему это всё надоело. Он ушел из клуба и пол...</span>
+<div class="last_tor_wrapper">
+<a href='/upload/torrents/15439.torrent' class='last_tor_button'>СКАЧАТЬ</a>
+</div>
+</div>
+<img class="lasttorpic" src="https://static.anilibria.tv/upload/release/240x350/8973.jpg?1620153151" height="350" alt="Пылающий Кабадди / Shakunetsu Kabaddi">
+</div>
+</div>
+<div class="torrent-block">
+<div class="torrent_block">
+<div class="side-anime-desc">
+<a class="release-link" href="/release/fruits-basket-the-final.html"></a>
+<span class="side-runame">Корзинка с фруктами: Финал</span>
+<span class="side-series">Серия: 1-8</span>
+<span class="side-description">Продолжение истории о простушке Тору, которая оказалась втянута в семейные проблемы богачей по фамилии &quot;&quot;Сома&quot;&quot;. Помимо того, что они богаты, на их роду леж...</span>
+<div class="last_tor_wrapper">
+<a href='/upload/torrents/15438.torrent' class='last_tor_button'>СКАЧАТЬ</a>
+</div>
+</div>
+<img class="lasttorpic" src="https://static.anilibria.tv/upload/release/240x350/8963.jpg?1617835113" height="350" alt="Корзинка с фруктами: Финал / Fruits Basket: The Final ">
+</div>
+</div>
+<div class="torrent-block">
+<div class="torrent_block">
+<div class="side-anime-desc">
+<a class="release-link" href="/release/bishounen-tanteidan.html"></a>
+<span class="side-runame">Клуб детективов - красавчиков </span>
+<span class="side-series">Серия: 1-8</span>
+<span class="side-description">Маю́ми До́дзима - студентка второго курса элитной Академии Юби́ва. Десять долгих лет назад, в детстве, она увидела красивую звезду, но потеряла её. Потому узнав о клубе Детекти...</span>
+<div class="last_tor_wrapper">
+<a href='/upload/torrents/15435.torrent' class='last_tor_button'>СКАЧАТЬ</a>
+</div>
+</div>
+<img class="lasttorpic" src="https://static.anilibria.tv/upload/release/240x350/8981.jpg?1618335345" height="350" alt="Клуб детективов - красавчиков  / Bishounen Tanteidan">
+</div>
+</div>
+<div class="torrent-block">
+<div class="torrent_block">
+<div class="side-anime-desc">
+<a class="release-link" href="/release/boku-no-hero-academia-5th-season.html"></a>
+<span class="side-runame">Моя геройская академия 5</span>
+<span class="side-series">Серия: 1-10</span>
+<span class="side-description">Долгожданный новый сезон аниме &quot;Моя геройская академия&quot; ждёт нас уже в апреле! Изуку Мидория родился в мире, где практически у каждого есть какая-либо суперспособност...</span>
+<div class="last_tor_wrapper">
+<a href='/upload/torrents/15433.torrent' class='last_tor_button'>СКАЧАТЬ</a>
+</div>
+</div>
+<img class="lasttorpic" src="https://static.anilibria.tv/upload/release/240x350/8948.jpg?1618310268" height="350" alt="Моя геройская академия 5 / Boku no Hero Academia 5th Season">
+</div>
+</div>
+<div id="adfox_162064825798024098"></div>
+<script type="a7f332454619139fec7f710b-text/javascript">
+					window.Ya.adfoxCode.create({
+						ownerId: 332443,
+						containerId: 'adfox_162064825798024098',
+						params: {
+							p1: 'cpapg',
+							p2: 'gxmx'
+						}
+					});
+				</script>
+<script type="a7f332454619139fec7f710b-text/javascript">
+				setInterval(function(){            
+				window.Ya.adfoxCode.reload('adfox_162064825798024098')
+				}, 30000);
+				</script>
+</div>
+</div>
+<div class="clear"></div>
+<div class="footer">
+<div class="footer_left">
+<div class="footer_left2">
+ <a href="http://www.animespirit.ru/" target="_blank" rel="nofollow"><img src="/img/button/1.jpg" alt=""></a>
+<a href="https://github.com/anilibria" target="_blank" rel="nofollow"><img src="/img/button/github.png" alt=""></a>
+<a href="https://alice2k.work/" target="_blank" rel="nofollow"><img src="/img/button/alice2k.png" alt=""></a>
+</div>
+</div>
+<div class="footer_center">
+</div>
+<div class="footer_right">
+<ul>
+<li><a href="/pages/login.php#rules">Правила</a></li>
+<li><a href="tg://resolve?domain=Libria911Bot">Вопрос</a></li>
+<li><a href="/pages/cp.php">Личный кабинет</a></li>
+<li><a href="/pages/login.php">Регистрация</a></li><li><a href="/pages/login.php">Вход</a></li> </ul>
+<p>
+Весь материал на сайте представлен исключительно для домашнего ознакомительного просмотра.<br /> В случаях нарушения авторских прав - обращайтесь на почту <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="61000f080d08031308002111130e150e0f0c00080d4f020e0c">[email&#160;protected]</a>
+</p>
+</div>
+</div>
+<div class="modal fade" id="authPlsModal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog" style="width: 500px;">
+<div class="modal-content">
+<div class="modal-body">
+<pre style="margin-top: 7px;"><center>Пожалуйста, <a href="https://www.anilibria.tv/pages/login.php">авторизуйтесь</a> на сайте.</center></pre>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://static.anilibria.tv/js/jquery.min.js?1549235945" type="a7f332454619139fec7f710b-text/javascript"></script>
+<script src="https://static.anilibria.tv/js/bootstrap.min.js?1554864113" type="a7f332454619139fec7f710b-text/javascript"></script>
+<script src="https://static.anilibria.tv/js/main.js?1580658811" type="a7f332454619139fec7f710b-text/javascript"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LfA2mUUAAAAAAbcTyBWyTXV2Kp6vi247GywQF1A" type="a7f332454619139fec7f710b-text/javascript"></script><script type="a7f332454619139fec7f710b-text/javascript" src="https://vk.com/js/api/openapi.js?160" async onload="VK.init({apiId: 5315207, onlyWidgets: true}); setTimeout(function(){ VK.Widgets.Comments('vk_comments', {limit: 8,  attach: false});}, 75);"></script> <script type="a7f332454619139fec7f710b-text/javascript">console.log("Page generated in 0.0051 seconds. Peak memory usage: 0.56 MB");</script>
+
+<script type="a7f332454619139fec7f710b-text/javascript">
+			var utarget_rand = Math.floor(Math.random()*10000);
+			var utarget_cookie = document.cookie.indexOf("u_76f475ff0b=")+1;
+			var utarget_script = document.createElement("script");
+			utarget_script.type = 'text/javascript';
+			utarget_script.async = true;
+			utarget_script.src = "https://utarget.ru/ranging/76f475ff0b/js/?rand="+utarget_rand+"&cookie="+utarget_cookie;
+			document.body.appendChild(utarget_script);
+		</script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="a7f332454619139fec7f710b-|49" defer=""></script></body>
+</html>
