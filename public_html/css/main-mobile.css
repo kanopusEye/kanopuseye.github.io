@@ -303,9 +303,9 @@ body > div.main > div.side > div.torrent-block {
         
 .footer {
     bottom: 0;
-    margin-top: 12px;
+    padding-top: 22px;
     background-color: #383838;
-    height: 100px;
+    height: 114px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
