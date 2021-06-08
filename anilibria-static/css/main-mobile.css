@@ -85,9 +85,7 @@ html, body {
         a#activelink6 { background-color: #460c0c; }
         
         
-.patreon {
-    width: 100%; 
-}
+.patreon {}
 
     .patreon a {
         display: block;
@@ -140,7 +138,7 @@ html, body {
 }
 
     body > div.main > div.side > div.asidehead > div {
-        width: 260px;
+        /*width: 260px;*/
         padding: 5px;
     }
 
@@ -176,7 +174,7 @@ html, body {
                         
                         
 body > div.main > div.side > div.torrent-block {
-    width: 280px; /**/
+    /*width: 280px; */
     background-color: #383838;
 }
 
@@ -300,7 +298,9 @@ body > div.main > div.side > div.torrent-block {
                 .side img.lasttorpic {
                     margin: 0;
                 }
-        
+
+                
+/* TODO: верстка подвала с абсолютным позиционированием */                
 .footer {
     bottom: 0;
     padding-top: 22px;
@@ -316,7 +316,7 @@ body > div.main > div.side > div.torrent-block {
 
     .footer_left {
         display: none;
-        width: 340px;
+        /*width: 340px;*/
         color: #ddd;
         float: left;
     }
@@ -336,7 +336,7 @@ body > div.main > div.side > div.torrent-block {
             }
 
     .footer_center {
-        width: 480px;
+        /*width: 300px;*/
         float: left;
         height: 100px;
         background: url(../img/footer.png);
@@ -346,7 +346,7 @@ body > div.main > div.side > div.torrent-block {
 
     .footer_right {
         font-size: 17.8px;
-        width: 485px;
+        /*width: 485px;*/
         float: left;
         color: #ddd;
     }
