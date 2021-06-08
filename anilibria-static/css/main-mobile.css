@@ -69,9 +69,11 @@ html, body {
             text-decoration: none;
             font-size: 12.2pt;
             color: #fff;
+            
+            pointer-events: none;
         }
         
-        ul.main-navigation a:hover { background-color: #cf2525!important; }
+        ul.main-navigation a:active { background-color: #cf2525!important; }
         
         ul.main-navigation li:first-child a { border-radius: 0 4px 0 0; }
         ul.main-navigation li:last-child a  { border-radius: 0 0 4px 0; }
